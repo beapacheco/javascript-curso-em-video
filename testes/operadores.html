@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        1 + 2 = 3 // adição
+        5 - 3 = 2 // subtração
+        2 * 3 = 6 // multiplicação
+        6 / 2 = 3 // divisão
+        6 % 4 = 2 // resto da divisão
+        3 ** 2 = 9 // ao quadrado
+
+        var a = 5 + 3 // atribuição simples
+        var b = a % 5
+        var c = 5 * b ** 2
+        var d = 10 - a / 2
+        var e = 6 * 2 / d
+        var f = b % e + 4 / e
+
+        var n = 3 // auto atribuições
+        n = n + 4 // n passa a valer 7
+        n = n - 5 // n passa a valer 2
+
+        n = n + 4// simplificando
+        n+=4
+        
+        n = n - 5
+        n-=5
+
+        var x = 5
+        x = x + 1
+        x+=1
+        x++ // incremento, sempre adiciona mais um
+
+        var y = 6
+        y = y - 1
+        y-=1
+        y-- // ou diminui
+
+        5 > 3 // relacionais, o resultado vai ser sempre boolean true or false
+        3 < 5
+        5 >= 4
+        6 <= 6
+        9 == 9 // igual
+        5 != 10 // diferente
+
+        5 == 5 true // identidade
+        5 == '5' true // IGUAL vdd pq o JS nao relaciona os tipos, mas os varlores
+        5 === 5 false // IDÊNTICO falso pq testa o tipo e valor
+        5 !== '5' true // DESIGUAL RESTRITO vdd pq tem o mesmo valor mas são de diferentes tipos
+
+       // LÓGICO
+        ! // negação (não) / !true (não é verdadeiro) -> false OU !false -> true
+       
+        && // conjunção (e)
+        /* exemplo: quero 2 canetas, uma vermelha E uma azul
+        qualquer coisa diferente disso não é bom pra mim, então é false
+        
+        true && true -> true
+        true && false -> false
+        false && true -> false
+        false && false -> false */ 
+
+        || // disjunção (ou)
+        /* exemplo: quero 2 canetas, uma vermelha OU uma azul
+        apenas 1 true serve, já que qualquer uma delas me basta
+
+        true && true -> true
+        true && false -> true
+        false && true -> true
+        false && false -> false */
+
+        // ORDEM: !  &&  || 
+
+
+
+    </script>
+</body>
+</html>
