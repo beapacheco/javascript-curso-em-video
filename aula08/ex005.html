@@ -16,15 +16,28 @@
 </head>
 <body>
     <h1>Iniciando estudos com DOM</h1>
-    <p>Aqui vai o resultado</p>
+    <p>Aqui vai o resultado</p> 
     <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
-    <div>Clique em mim</div>
+    <div id="msg">Clique em mim</div> 
+     
     <script>
-        var corpo = document.body
+
+        var p1 = document.getElementsByTagName('p')[0]
+        document.write(p1.innerText) 
+        
+        var p2 = document.getElementsByTagName('p')[1] /* pegou o conteúdo do parágrafo "0", que é o primeiro, porque é o getElements no plural */
+        document.write('Está escrito assim: ' + p2.innerHTML) /* coloca o conteúdo do elemento selecionado */
+
+        var d = document.getElementById('msg')
+        d.style.background = 'green'
+        // d.innerText = 'Estou aguardando...'
+
+
+        /* var corpo = document.body
         var p1 = document.getElementsByTagName('p')[0]
         document.write('Está escrito assim: ' + p1.innerHTML)
         p1.style.color = "blue"
-        corpo.style.background = "black"
+        corpo.style.background = "black" */
     </script>
 </body>
 </html>
