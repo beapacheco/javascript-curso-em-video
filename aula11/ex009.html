@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando Condição Composta</title>
+</head>
+<body>
+    <h1>Qual sua nacionalidade?</h1>
+    <input type="text" name="país" id="país">
+    <input type="button" value="Enviar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+       function verificar() {
+        var moradia = document.getElementById('país').value
+        var res = document.getElementById('res')
+
+        if (moradia == 'Brasil') {
+            res.innerHTML = `Você mora em ${moradia}. Você é brasileira!`
+        } else {
+            res.innerHTML = `Você mora em ${moradia}. Você é estrangeira!`
+        }
+    }
+    </script>
+</body>
+</html>
