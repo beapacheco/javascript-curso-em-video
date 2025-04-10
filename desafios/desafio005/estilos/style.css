@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+    font: normal 1em Arial;
+    background-color: #18181B;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #262626;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
+
+#num {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#num input {
+    border: 0px;
+    background-color: #18181B;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+}
+
+#num p {
+    color: white;
+    font-size: 3.7em;
+}
+
+#reset {
+    text-align: center;
+}
+
+#reset input {
+    background-color: #372F9E;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+}
+
