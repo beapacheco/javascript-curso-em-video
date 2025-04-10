@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
-        <h1>
-
-        </h1>
+        <h1>Tabuada</h1>
     </header>
     <main>
         <section>
-            <div>
-                
-            </div>
-            <div>
+            <div id="tabuada">
+                <label for="number">Número: </label>
+                <input type="number" name="num" id="txtn" required>
 
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+            </div>
+            <div id="res">
+               <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+               </select>
             </div>
         </section>
     </main>

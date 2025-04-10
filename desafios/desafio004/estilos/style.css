@@ -2,7 +2,7 @@
 
 body {
     font: normal 1em Arial;
-    background-color: #DAAC75;
+    background-color: cornflowerblue;
 }
 
 h1 {
@@ -18,11 +18,14 @@ div {
 section {
     background-color: white;
     width: 500px;
-    height: 350px;
+    height: 250px;
     padding: 15px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
     border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
 }
 
 footer p {
