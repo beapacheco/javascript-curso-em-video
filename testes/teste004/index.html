@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior ou Menor?</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Qual número é maior?</h1>
+            <div id="num">
+                <label for="num1">Digite o <strong>primeiro</strong> número aqui: </label>
+                <input type="number" name="num1" id="txtn1">
+
+                <br>
+
+                <label for="num2">Digite o <strong>segundo</strong> número aqui: </label>
+                <input type="number" name="num2" id="txtn2">
+
+                <br>
+                
+                <input type="submit" value="Verificar" id="verificacao" onclick="verificar()">
+
+            </div>
+            <div id="res">
+                <p id="maioroumenor">Vamos verificar qual dos dois é maior...</p>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
